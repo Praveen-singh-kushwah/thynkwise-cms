@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "shared.hero",
+      "repeatable": false
+    },
+    "about": {
+      "type": "component",
+      "component": "home.about",
+      "repeatable": false
+    },
+    "partnerFit": {
+      "type": "component",
+      "component": "home.partner-fit",
+      "repeatable": false
+    },
+    "whyThynkwise": {
+      "type": "component",
+      "component": "home.why-thynkwise",
+      "repeatable": false
+    },
+    "caseStudies": {
+      "type": "component",
+      "component": "home.case-studies",
+      "repeatable": false
+    },
+    "processSection": {
+      "type": "component",
+      "component": "home.process-section",
+      "repeatable": false
+    }
+  }
+}

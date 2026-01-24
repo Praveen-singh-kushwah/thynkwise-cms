@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_case_studies",
+  "info": {
+    "displayName": "caseStudies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "caseStudyCard": {
+      "type": "component",
+      "component": "home.case-study-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

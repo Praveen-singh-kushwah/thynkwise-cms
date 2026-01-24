@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_partner_fits",
+  "info": {
+    "displayName": "partnerFit"
+  },
+  "options": {},
+  "attributes": {
+    "partnerBlock": {
+      "type": "component",
+      "component": "home.partner-block",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

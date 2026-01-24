@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_why_thynkwises",
+  "info": {
+    "displayName": "whyThynkwise"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "whyThynkwiseItem": {
+      "type": "component",
+      "component": "home.why-thynkwise-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
