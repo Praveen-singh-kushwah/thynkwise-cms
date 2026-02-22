@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apollo_city_pages",
+  "info": {
+    "singularName": "apollo-city-page",
+    "pluralName": "apollo-city-pages",
+    "displayName": "Apollo City Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "cityName": {
+      "type": "string"
+    },
+    "hero_Section": {
+      "type": "component",
+      "component": "apollo.hero-section",
+      "repeatable": false
+    },
+    "service_Item": {
+      "type": "component",
+      "component": "apollo.service-item",
+      "repeatable": true
+    },
+    "tool_section": {
+      "type": "component",
+      "component": "apollo.tool-section",
+      "repeatable": false
+    },
+    "process_item": {
+      "type": "component",
+      "component": "apollo.process-item",
+      "repeatable": true
+    },
+    "why_city_section": {
+      "type": "component",
+      "component": "apollo.why-city-section",
+      "repeatable": false
+    },
+    "cta_section": {
+      "type": "component",
+      "component": "apollo.cta-section",
+      "repeatable": false
+    },
+    "faq_item": {
+      "type": "component",
+      "component": "faq.faq",
+      "repeatable": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

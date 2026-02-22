@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "partners_pages",
+  "info": {
+    "singularName": "partners-page",
+    "pluralName": "partners-pages",
+    "displayName": "partners-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

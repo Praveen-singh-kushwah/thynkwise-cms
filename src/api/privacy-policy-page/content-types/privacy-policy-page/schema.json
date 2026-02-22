@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policy_pages",
+  "info": {
+    "singularName": "privacy-policy-page",
+    "pluralName": "privacy-policy-pages",
+    "displayName": "PrivacyPolicyPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

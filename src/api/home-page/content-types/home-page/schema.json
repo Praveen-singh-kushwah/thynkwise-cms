@@ -13,7 +13,7 @@
   "attributes": {
     "hero": {
       "type": "component",
-      "component": "shared.hero",
+      "component": "home.hero",
       "repeatable": false
     },
     "about": {
@@ -39,6 +39,11 @@
     "processSection": {
       "type": "component",
       "component": "home.process-section",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
       "repeatable": false
     }
   }

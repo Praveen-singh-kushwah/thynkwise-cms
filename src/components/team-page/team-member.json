@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_team_page_team_members",
+  "info": {
+    "displayName": "team_member"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "linkedinUrl": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_list_with_image_sections",
+  "info": {
+    "displayName": "listWithImageSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "listItem": {
+      "type": "component",
+      "component": "about.list-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

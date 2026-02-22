@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_team_page_team_sections",
+  "info": {
+    "displayName": "team-section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "team_member": {
+      "type": "component",
+      "component": "team-page.team-member",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

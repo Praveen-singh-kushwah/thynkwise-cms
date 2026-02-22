@@ -4,11 +4,25 @@
   "info": {
     "singularName": "pricing-page",
     "pluralName": "pricing-pages",
-    "displayName": "PricingPage"
+    "displayName": "pricing-page"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "mainDescription": {
+      "type": "richtext"
+    },
+    "tab": {
+      "type": "component",
+      "component": "pricing.tab",
+      "repeatable": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
 }

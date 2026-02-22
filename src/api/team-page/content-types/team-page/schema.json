@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "team_pages",
+  "info": {
+    "singularName": "team-page",
+    "pluralName": "team-pages",
+    "displayName": "TeamPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FounderIntro": {
+      "type": "component",
+      "component": "team-page.founder-intro",
+      "repeatable": false
+    },
+    "VisionAndMission": {
+      "type": "component",
+      "component": "team-page.vision-and-mission",
+      "repeatable": false
+    },
+    "team_section": {
+      "type": "component",
+      "component": "team-page.team-section",
+      "repeatable": true
+    },
+    "commitmentText": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "CEO_Message": {
+      "type": "component",
+      "component": "team-page.ceo-message",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

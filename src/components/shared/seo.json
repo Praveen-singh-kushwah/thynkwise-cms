@@ -16,11 +16,21 @@
       "type": "text",
       "required": true
     },
-    "canonicalUrl": {
+    "keywords": {
+      "type": "string"
+    },
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
       "type": "text"
     },
-    "schemaMarkup": {
-      "type": "json"
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

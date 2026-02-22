@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_plans",
+  "info": {
+    "singularName": "pricing-plan",
+    "pluralName": "pricing-plans",
+    "displayName": "PricingPlan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "badgeText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "billingNote": {
+      "type": "string"
+    },
+    "isHighlighted": {
+      "type": "boolean"
+    },
+    "platformFeatures": {
+      "type": "component",
+      "component": "platform-features.platform-features",
+      "repeatable": true
+    },
+    "executionFeatures": {
+      "type": "component",
+      "component": "execution-features.execution-features",
+      "repeatable": true
+    },
+    "License": {
+      "type": "string"
+    },
+    "setupFee": {
+      "type": "string"
+    },
+    "executionFee": {
+      "type": "string"
+    },
+    "enable_button": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

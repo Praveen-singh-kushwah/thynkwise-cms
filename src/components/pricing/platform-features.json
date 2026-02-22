@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pricing_platform_features",
+  "info": {
+    "displayName": "platformFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "included": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_steps",
+  "info": {
+    "displayName": "steps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

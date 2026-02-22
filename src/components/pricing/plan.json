@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_pricing_plans",
+  "info": {
+    "displayName": "plan"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "billingLabel": {
+      "type": "string"
+    },
+    "showExecutionFee": {
+      "type": "boolean"
+    },
+    "executionFee": {
+      "type": "string"
+    },
+    "discountLabel": {
+      "type": "string"
+    },
+    "One_time_setup_fee": {
+      "type": "string"
+    },
+    "licenseText": {
+      "type": "string"
+    },
+    "specialQuote": {
+      "type": "text"
+    },
+    "platformFeatures": {
+      "type": "component",
+      "component": "pricing.platform-features",
+      "repeatable": true
+    },
+    "executionFeatures": {
+      "type": "component",
+      "component": "pricing.platform-features",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

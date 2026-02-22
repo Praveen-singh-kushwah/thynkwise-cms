@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_apollo_cta_sections",
+  "info": {
+    "displayName": "cta_section"
+  },
+  "options": {},
+  "attributes": {
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaButtonName": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

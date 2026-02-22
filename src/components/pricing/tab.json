@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pricing_tabs",
+  "info": {
+    "displayName": "tab"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "saveLabel": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "component",
+      "component": "pricing.plan",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

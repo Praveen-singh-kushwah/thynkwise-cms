@@ -10,5 +10,25 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "formHeading": {
+      "type": "string"
+    },
+    "formSubheading": {
+      "type": "string"
+    },
+    "stepsHeading": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "component": "contact.steps",
+      "repeatable": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
 }

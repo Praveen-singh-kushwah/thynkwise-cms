@@ -11,9 +11,39 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
+    "introSection": {
       "type": "component",
-      "component": "shared.hero",
+      "component": "about.intro-section",
+      "repeatable": false
+    },
+    "imageTextSection": {
+      "type": "component",
+      "component": "about.image-text-section",
+      "repeatable": false
+    },
+    "approachSection": {
+      "type": "component",
+      "component": "about.approach-section",
+      "repeatable": false
+    },
+    "valuesSection": {
+      "type": "component",
+      "component": "about.values-section",
+      "repeatable": false
+    },
+    "listWithImageSection": {
+      "type": "component",
+      "component": "about.list-with-image-section",
+      "repeatable": false
+    },
+    "OurPromise": {
+      "type": "component",
+      "component": "about.image-text-section",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
       "repeatable": false
     }
   }

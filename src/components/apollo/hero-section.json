@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_apollo_hero_sections",
+  "info": {
+    "displayName": "hero-section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

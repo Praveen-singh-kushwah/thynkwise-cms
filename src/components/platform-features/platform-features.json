@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_platform_features_platform_features",
+  "info": {
+    "displayName": "platformFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "select": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

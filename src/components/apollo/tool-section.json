@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_apollo_tool_sections",
+  "info": {
+    "displayName": "tool-section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "tool_item": {
+      "type": "component",
+      "component": "tool-section.tool-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

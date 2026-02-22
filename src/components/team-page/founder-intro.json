@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_team_page_founder_intros",
+  "info": {
+    "displayName": "Founder Intro"
+  },
+  "options": {},
+  "attributes": {
+    "founderGreeting": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "required": true
+    },
+    "founderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

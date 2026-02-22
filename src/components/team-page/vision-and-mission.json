@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_team_page_vision_and_missions",
+  "info": {
+    "displayName": "Vision & Mission"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_execution_features_execution_features",
+  "info": {
+    "displayName": "executionFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "select": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

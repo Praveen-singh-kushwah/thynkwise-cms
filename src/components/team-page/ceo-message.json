@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_team_page_ceo_messages",
+  "info": {
+    "displayName": "CEO Message"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "message": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

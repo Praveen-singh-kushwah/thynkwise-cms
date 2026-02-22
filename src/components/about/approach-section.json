@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_approach_sections",
+  "info": {
+    "displayName": "approachSection"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "text"
+    },
+    "approachItem": {
+      "type": "component",
+      "component": "about.approach-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

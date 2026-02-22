@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_success_story_testimonials",
+  "info": {
+    "displayName": "testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "linkedinUrl": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  },
+  "config": {}
+}

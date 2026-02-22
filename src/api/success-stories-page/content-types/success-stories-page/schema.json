@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "success_stories_pages",
+  "info": {
+    "singularName": "success-stories-page",
+    "pluralName": "success-stories-pages",
+    "displayName": "SuccessStoriesPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonials": {
+      "type": "component",
+      "component": "success-story.testimonials",
+      "repeatable": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}
