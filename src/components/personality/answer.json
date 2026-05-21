@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_personality_answers",
+  "info": {
+    "displayName": "Answer",
+    "description": "Answer option for GEM personality questions"
+  },
+  "options": {},
+  "attributes": {
+    "answerText": {
+      "type": "text",
+      "required": true
+    },
+    "gemType": {
+      "type": "enumeration",
+      "enum": [
+        "Sapphire",
+        "Ruby",
+        "Pearl",
+        "Emerald"
+      ],
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

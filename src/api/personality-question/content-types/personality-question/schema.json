@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personality_questions",
+  "info": {
+    "singularName": "personality-question",
+    "pluralName": "personality-questions",
+    "displayName": "Personality Question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "answers": {
+      "type": "component",
+      "component": "personality.answer",
+      "repeatable": true,
+      "required": true
+    }
+  }
+}

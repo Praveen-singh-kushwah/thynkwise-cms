@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personality_submissions",
+  "info": {
+    "singularName": "personality-submission",
+    "pluralName": "personality-submissions",
+    "displayName": "Personality Submission"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "hasSubmittedQuestions": {
+      "type": "boolean",
+      "default": false
+    },
+    "submittedAt": {
+      "type": "datetime"
+    },
+    "quizSubmittedAt": {
+      "type": "datetime"
+    },
+    "dominantGem": {
+      "type": "string"
+    },
+    "sapphireScore": {
+      "type": "integer",
+      "default": 0
+    },
+    "rubyScore": {
+      "type": "integer",
+      "default": 0
+    },
+    "pearlScore": {
+      "type": "integer",
+      "default": 0
+    },
+    "emeraldScore": {
+      "type": "integer",
+      "default": 0
+    },
+    "totalQuestions": {
+      "type": "integer",
+      "default": 0
+    },
+    "answers": {
+      "type": "json"
+    }
+  }
+}

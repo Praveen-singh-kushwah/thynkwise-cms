@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "personality_pages",
+  "info": {
+    "singularName": "personality-page",
+    "pluralName": "personality-pages",
+    "displayName": "Personality Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "default": "GEM Personality Assessment"
+    },
+    "introText": {
+      "type": "text"
+    },
+    "formHeading": {
+      "type": "string",
+      "default": "Start Your Assessment"
+    },
+    "quizTip": {
+      "type": "text",
+      "default": "Tip: Don't pick what sounds ideal. Choose the first answer that feels true. What would you actually do, not what you think you should do?"
+    },
+    "resultHeading": {
+      "type": "string",
+      "default": "Your GEM Personality Result"
+    },
+    "submitButtonText": {
+      "type": "string",
+      "default": "Submit"
+    },
+    "retakeButtonText": {
+      "type": "string",
+      "default": "Retake Quiz"
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}
